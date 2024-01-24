@@ -1,6 +1,6 @@
 
 # Super Mario Deployment on Kubernetes using Terraform and AWS EKS
-
+/home/sayan/Pictures/Screenshots/Screenshot from 2024-01-24 12-38-00.png
 ## Prerequisites
 
 - AWS account with basic knowledge
@@ -22,7 +22,7 @@
 3\. Connect to the instance using SSH.
 
 4\. Run the provided commands to update and install dependencies.
-
+/home/sayan/Pictures/Screenshots/Screenshot from 2024-01-24 12-40-29.png
 ### Step 2: Setup Docker, Terraform, AWS CLI, and Kubectl
 
 1\. Install Docker.
@@ -68,9 +68,9 @@
 3\. Create the service using `kubectl apply -f service.yaml`.
 
 4\. Run `kubectl get all` to check details.
-
+/home/sayan/Pictures/Screenshots/Screenshot from 2024-01-24 12-39-56.png
 5\. Access the load balancer ingress in a browser.
-
+/home/sayan/Pictures/Screenshots/Screenshot from 2024-01-24 12-38-00.png
 ### Step 7: Destroy All the Infrastructure
 
 1\. Delete deployment and service using `kubectl delete`.
